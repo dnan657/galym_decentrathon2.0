@@ -70,7 +70,7 @@ function api_сhat_gpt($request_json=[]) {
 	$temperature = isset($request_json['temperature']) ? $request_json['temperature'] : 0.7;
 
     // Ваш API ключ ChatGPT
-    $api_key = 'sk-2vJsD0gPkcS-7_P7Z0SUAgZfkvZx9w-dbgHVn_Oj1aT3BlbkFJnH74F4ZPZo5fH9GeHariNtFT1dab3hxLu6Qyv7gYcA';
+    $api_key = 'YOUR_API_KEY_OPENAI';
 
     // URL для отправки запроса к ChatGPT API
     $api_url = 'https://api.openai.com/v1/chat/completions';
